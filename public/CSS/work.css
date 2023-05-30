@@ -12,6 +12,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
+    position: fixed;
+    top: 0; 
+    width: 100%;
 }
 nav a {
     text-decoration: none;
@@ -31,4 +34,12 @@ nav a:hover {
 .sub-title {
     font-size: 25px;
     font-style: bold;
+    text-align: justify;
+    padding: 20px 40px;
+}
+
+.list {
+    list-style-type:decimal;
+    font-size: 16px;
+    text-align: justify;
 }
