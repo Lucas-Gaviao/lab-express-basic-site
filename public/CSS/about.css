@@ -1,0 +1,19 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+
+nav {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #5d4f9b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
