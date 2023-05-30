@@ -13,12 +13,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
+    position: fixed;
+    top: 0; 
+    width: 100%;
 }
 nav a {
     text-decoration: none;
     color: white;
-    display: flex;
-    flex-direction: row;
+
 
 }
 
