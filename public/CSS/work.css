@@ -27,24 +27,44 @@ nav a:hover {
 
 .title {
     font-size: 45px;
-    text-align: justify;
-    padding: 20px 40px;
+    text-align: center;
+    padding: 40px 40px;
 }
 
 .sub-title {
     font-size: 25px;
     font-style: bold;
-    text-align: justify;
-    padding: 20px 40px;
+    text-align: center;
+    padding: 10px 40px;
 }
 
 .list {
-    list-style-type:decimal;
+    list-style-type: decimal;
     font-size: 16px;
     text-align: justify;
+    display: inline-block;
+    padding-top: 20px;
+    
+}
+
+.img1 {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    vertical-align: middle;
+    padding: 10px 42%;
+    
+}
+.img2 {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    vertical-align: middle;
+    padding: 10px 42%;
 }
 
 footer {
     margin: 10px;
     padding: 40px 20px;
 }
+
